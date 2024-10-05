@@ -1,0 +1,1 @@
+<?php require("views/Liste_plantation_stock.php")?>

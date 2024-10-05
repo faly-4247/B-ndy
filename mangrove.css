@@ -1,0 +1,85 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: #e6c47d;
+    color: #333;
+}
+.bg-gray-100{
+    background-color: #dad7d1;
+}
+
+.hidden a{
+    color: #fff;
+    font-size: 22px;
+}
+.hidden a:hover{
+    color: #ad1313;
+    display: flex;
+    font-size: 22px;
+}
+.container h1{
+    margin-left: -40rem;
+    color: red;
+}
+
+.text-xl{
+    font-size: 21px;
+}
+.mb-4{
+    color:  black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bg-mangrove{
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bg-mangrove :hover{
+    box-shadow: 0 2px 2px 15px rgba(156, 20, 20, 0.1);
+
+}
+
+
+/*carte de plantation*/
+.text-lg{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Styles personnalisés pour l'interface de gestion de mangroves */
+.bg-mangrove {
+    background-color: #2D6A4F;
+}
+
+.text-mangrove {
+    color: #2D6A4F;
+}
+
+/* Styles supplémentaires pour améliorer l'interface */
+.hover-bg-mangrove:hover {
+    background-color: #1F4F3B;
+}
+
+.border-mangrove {
+    border-color: #2D6A4F;
+   
+
+}
+
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+/* Style pour le conteneur du graphique */
+.chart-container {
+    height: 16rem; /* 64px * 4 = 256px */
+    background-color: #F3F4F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .responsive-grid {
+        grid-template-columns: 1fr;
+    }
+}
